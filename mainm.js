@@ -60,10 +60,11 @@ x = setTimeout(function () {
 }, 3000);
 
 }
-function clear() {
+function ccleer() {
     clearTimeout(x);
+
     document.getElementById("timeout_text").innerText=
     "The timeout has been cleared"
     document.getElementById("timeout_text").style.color = "black";
-    
+
 }
